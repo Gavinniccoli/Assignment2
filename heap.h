@@ -18,7 +18,7 @@ struct MinHeap {
         // TODO: insert index at end of heap, restore order using upheap()
         data[size] = idx;
         size++;
-        upheap(size-1, data);
+        upheap(size-1, weightArr);
     }
 
     int pop(int weightArr[]) {
