@@ -55,6 +55,7 @@ struct MinHeap {
             data[pos] = data[child];
             data[child] = tmp;
             pos = child;
+
         }
     }
 };
